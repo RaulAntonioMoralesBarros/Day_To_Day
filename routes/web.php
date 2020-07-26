@@ -37,3 +37,14 @@ Route::get('/Tareas', function () {
     return view('lists_and_priorities.tasks.tasks');
 });
 
+Route::get('/Tareas', function () {
+    return view('lists_and_priorities.tasks.tasks');
+});
+
+Route::get('/Tareas', function () {
+    return view('lists_and_priorities.tasks.tasks');
+});
+
+Route::get('/Objetivos_y_metas', function () {
+    return view('objectives_and_goals.objectives_and_goals.objectives_and_goals');
+});
