@@ -52,3 +52,7 @@ Route::get('/Objetivos_y_metas', function () {
 Route::get('/Metas', function () {
     return view('objectives_and_goals.objectives.objectives');
 });
+
+Route::get('/Tu_peso_ideal', function () {
+    return view('ideal_weight.ideal_weight');
+});
