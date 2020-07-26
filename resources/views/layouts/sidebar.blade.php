@@ -45,44 +45,45 @@
       <h6 class="main-sidebar__nav-title">Aplicaciones</h6>
       <ul class="nav nav--no-borders flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="{{url('Diario_de_vida')}}">
+        <a class="nav-link @yield('Diario_de_vida')" href="{{url('Diario_de_vida')}}">
             <i class="material-icons">menu_book</i>
             <span>Diario Personal</span>
           </a>
         </li>
 
+        
         <li class="nav-item">
-          <a class="nav-link" href="{{url('Listas_y_prioridades')}}"  >
+          <a class="nav-link @yield('Listas_y_prioridades')" href="{{url('Listas_y_prioridades')}}"  >
             <i class="material-icons">fact_check</i>
             <span>Listas y prioridades</span>
           </a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="{{url('Objetivos_y_metas')}}">
+          <a class="nav-link @yield('Objetivos_y_metas')" href="{{url('Objetivos_y_metas')}}">
             <i class="material-icons">leaderboard</i>
             <span>Objetivos y metas</span>
           </a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="{{url('Tu_peso_ideal')}}">
+          <a class="nav-link @yield('Tu_peso_ideal')" href="{{url('Tu_peso_ideal')}}">
             <i class="material-icons">fitness_center</i>
             <span>Tu peso ideal</span>
           </a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="{{url('Enlaces_secretos')}}">
+          <a class="nav-link @yield('Enlaces_secretos')" href="{{url('Enlaces_secretos')}}">
             <i class="material-icons">web</i>
             <span>Enlaces secretos</span>
           </a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="{{url('Agenda_telefonica')}}">
+          <a class="nav-link @yield('Agenda_telefonica')" href="{{url('Agenda_telefonica')}}">
             <i class="material-icons">contact_phone</i>
             <span>Agenda telefonica</span>
           </a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="{{url('Frases_motivadoras')}}">
+          <a class="nav-link @yield('Frases_motivadoras')" href="{{url('Frases_motivadoras')}}">
             <i class="material-icons">favorite</i>
             <span>Frases Motivadoras</span>
           </a>

@@ -4,6 +4,9 @@
     @include('diaries.personal_diary.button_modal_personal_diary')
 @endsection
 
+@section('Diario_de_vida')
+active
+@endsection
 
 @section('title')
   Diario personal

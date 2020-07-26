@@ -4,6 +4,10 @@
     Mostrar Página
 @endsection
 
+@section('Diario_de_vida')
+active
+@endsection
+
 @section('content')
     <div class="main-content-container container-fluid px-4">
 

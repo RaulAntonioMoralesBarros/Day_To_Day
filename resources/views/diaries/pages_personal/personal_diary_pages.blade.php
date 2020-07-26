@@ -4,6 +4,10 @@
   Páginas del diario personal
 @endsection
 
+@section('Diario_de_vida')
+active
+@endsection
+
 @section('button')
     @include('diaries.pages_personal.button')
 @endsection

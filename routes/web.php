@@ -28,3 +28,8 @@ Route::get('/Nueva_pagina', function () {
 Route::get('/Mostrar_pagina', function () {
     return view('diaries.show_pages.view_pages');
 });
+
+Route::get('/Listas_y_prioridades', function () {
+    return view('lists_and_priorities.lists_and_priorities');
+});
+
