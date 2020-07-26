@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/Diario_de_vida', function () {
+    return view('diaries.personal_diary.personal_diary');
+});
+
+Route::get('/Paginas_del_diario_personal', function () {
+    return view('diaries.pages_personal.personal_diary_pages');
+});
+
+Route::get('/Nueva_pagina', function () {
+    return view('diaries.new_pages.new_pages');
+});
+
+Route::get('/Mostrar_pagina', function () {
+    return view('diaries.show_pages.view_pages');
 });
