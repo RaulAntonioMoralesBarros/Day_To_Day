@@ -30,6 +30,10 @@ Route::get('/Mostrar_pagina', function () {
 });
 
 Route::get('/Listas_y_prioridades', function () {
-    return view('lists_and_priorities.lists_and_priorities');
+    return view('lists_and_priorities.lists.lists_and_priorities');
+});
+
+Route::get('/Tareas', function () {
+    return view('lists_and_priorities.tasks.tasks');
 });
 

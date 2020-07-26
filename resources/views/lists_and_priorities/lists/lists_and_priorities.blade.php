@@ -9,7 +9,7 @@
 @endsection
 
 @section('button')
-    @include('lists_and_priorities.button_modal_lists_and_priorities')
+    @include('lists_and_priorities.lists.button_modal_lists_and_priorities')
 @endsection
 
 @section('content')
@@ -38,13 +38,13 @@
         <tr>
           <td class="file-manager__item-icon">
             <div>
-            <a href="{{url('Tarea')}}">
+            <a href="{{url('Tareas')}}">
                 <i class="material-icons">fact_check</i>
             </a>
             </div>
           </td>
           <td class="text-left">
-            <a href="{{url('Tarea')}}">
+            <a href="{{url('Tareas')}}">
             <h5 class="file-manager__item-title">Oficina</h5>
             <span class="file-manager__item-meta">Creado el 2 de diciembre del 2019.</span>
             </a>
