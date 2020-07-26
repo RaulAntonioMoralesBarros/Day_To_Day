@@ -46,5 +46,9 @@ Route::get('/Tareas', function () {
 });
 
 Route::get('/Objetivos_y_metas', function () {
-    return view('objectives_and_goals.objectives_and_goals.objectives_and_goals');
+    return view('objectives_and_goals.objectives_and_goals.goals');
+});
+
+Route::get('/Metas', function () {
+    return view('objectives_and_goals.objectives.objectives');
 });
