@@ -60,3 +60,7 @@ Route::get('/Tu_peso_ideal', function () {
 Route::get('/Enlaces_secretos', function () {
     return view('secret_links.secret_links');
 });
+
+Route::get('/Agenda_telefonica', function () {
+    return view('phonebook.phonebook');
+});

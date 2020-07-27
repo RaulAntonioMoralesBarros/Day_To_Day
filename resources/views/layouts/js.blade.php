@@ -1,7 +1,7 @@
     <!--=================================================>
 	<========================| JS |======================>
 	<==================================================-->
-   
+
     <script src="{{ URL::asset('../js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ URL::asset('../js/gijgo.min.js') }}"></script>
     <script src="{{ URL::asset('../js/popper.min.js') }}"></script>
@@ -22,4 +22,14 @@
             footer: true,
             modal: true
         });
+
+    </script>
+    <script>
+        "use strict";
+        ! function(t) {
+            t("#transaction-history-date-range").datepicker({}), t(".transaction-history").DataTable({
+                responsive: !0
+            })
+        }(jQuery);
+
     </script>
