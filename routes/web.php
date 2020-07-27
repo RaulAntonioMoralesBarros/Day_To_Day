@@ -56,3 +56,7 @@ Route::get('/Metas', function () {
 Route::get('/Tu_peso_ideal', function () {
     return view('ideal_weight.ideal_weight');
 });
+
+Route::get('/Enlaces_secretos', function () {
+    return view('secret_links.secret_links');
+});

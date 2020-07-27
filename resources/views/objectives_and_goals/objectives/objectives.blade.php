@@ -8,6 +8,7 @@
     active
 @endsection
 
+
 @section('filters')
     @include('objectives_and_goals.objectives.filters')
 @endsection
