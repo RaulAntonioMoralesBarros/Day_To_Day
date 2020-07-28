@@ -21,11 +21,11 @@ active
 
         {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
+            <div class="col-lg-8 col-sm-8 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Mi diario</span>
                 <h3 class="page-title">Primeros pasos de mi vida</h3>
             </div>
-            <div class="col-lg-12 col-sm-4 text-right text-sm-right mb-0">
+            <div class="col-lg-4 col-sm-4 text-right text-sm-right mb-0">
                 <span class="text-uppercase page-subtitle">Julio del 2020</span>
             </div>
         </div>
@@ -94,7 +94,7 @@ active
 
         {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col-lg-12 col-sm-4 text-right text-sm-right mb-0">
+            <div class="col-lg-12 col-sm-12 text-right text-sm-right mb-0">
                 <hr />
                 <span class="text-uppercase page-subtitle">Junio del 2020</span>
             </div>

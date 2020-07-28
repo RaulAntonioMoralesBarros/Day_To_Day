@@ -5,11 +5,11 @@
 @endsection
 
 @section('Diario_de_vida')
-active
+    active
 @endsection
 
 @section('title')
-  Diario personal
+    Diario personal
 @endsection
 
 @section('content')
@@ -17,7 +17,7 @@ active
 
         {{-- content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col">
+            <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Diario Personal</span>
                 <h3 class="page-title">Mis Diarios personales</h3>
             </div>

@@ -35,7 +35,7 @@
     </script>
 
 
-{{-- Estadisticas --}}
+    {{-- estadisticas --}}
     <script>
         "use strict";
         ! function(e) {
@@ -121,4 +121,4 @@
         }(jQuery);
 
     </script>
-
+    {{-- /estadisticas --}}

@@ -61,7 +61,7 @@
                     <span class="d-none d-md-inline-block">Raúl Antonio</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-small">
-                <a class="dropdown-item" href="{{url('Estadisticas')}}">
+                    <a class="dropdown-item" href="{{ url('Estadisticas') }}">
                         <i class="material-icons"></i> Estadisticas</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="Fotos.html">
@@ -78,7 +78,7 @@
                     <a class="dropdown-item" href="perfil.html">
                         <i class="material-icons">settings</i> Configuración</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-danger" href="{{url('Login')}}">
+                    <a class="dropdown-item text-danger" href="{{ url('Login') }}">
                         <i class="material-icons text-danger">&#xE879;</i> Salir
                     </a>
                 </div>

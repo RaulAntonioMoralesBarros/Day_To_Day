@@ -6,16 +6,20 @@
 
 @section('content')
     <div class="main-content-container container-fluid px-4">
-        <!-- Page Header -->
+
+        {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+            <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Estadisticas</span>
                 <h3 class="page-title">Mis estadisticas</h3>
             </div>
         </div>
-        <!-- End Page Header -->
-        <!-- Small Stats Blocks -->
+        {{-- /title content header --}}
+
+        {{-- content body target--}}
         <div class="row">
+
+            {{-- number of diary --}}
             <div class="col-lg col-md-6 col-sm-6 mb-4">
                 <div class="stats-small stats-small--1 card card-small">
                     <div class="card-body p-0 d-flex">
@@ -32,6 +36,9 @@
                     </div>
                 </div>
             </div>
+            {{-- /number of diary --}}
+
+            {{-- number of pages --}}
             <div class="col-lg col-md-6 col-sm-6 mb-4">
                 <div class="stats-small stats-small--1 card card-small">
                     <div class="card-body p-0 d-flex">
@@ -48,7 +55,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg col-md-4 col-sm-6 mb-4">
+            {{-- /number of pages --}}
+
+            {{-- number of goals --}}
+            <div class="col-lg col-md-6 col-sm-6 mb-4">
                 <div class="stats-small stats-small--1 card card-small">
                     <div class="card-body p-0 d-flex">
                         <div class="d-flex flex-column m-auto">
@@ -64,7 +74,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg col-md-4 col-sm-12 mb-4">
+            {{-- /number of goals --}}
+
+            {{-- memory in use --}}
+            <div class="col-lg col-md-6 col-sm-6 mb-4">
                 <div class="stats-small stats-small--1 card card-small">
                     <div class="card-body p-0 d-flex">
                         <div class="d-flex flex-column m-auto">
@@ -80,10 +93,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+            {{-- /memory in use --}}
 
-        <!-- End Small Stats Blocks -->
+        </div>
+        {{-- /content body target--}}
+
+        {{-- content body tables --}}
         <div class="row">
+
+            {{-- summary of objectives --}}
             <div class="col-lg-8 mb-4">
                 <div class="card card-small go-stats">
                     <div class="card-header border-bottom">
@@ -92,7 +110,6 @@
                     </div>
                     <div class="card-body py-0">
                         <ul class="list-group list-group-small list-group-flush">
-                          
                             <li class="list-group-item d-flex row px-0">
                                 <div class="col-lg-6 col-md-8 col-sm-8 col-6">
                                     <h6 class="go-stats__label mb-1">Aprender canción Chop Suey - SOAD</h6>
@@ -118,30 +135,32 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-sm-6 mb-4">
+            {{-- /summary of objectives --}}
+            
+            {{-- summary of my diary --}}
+            <div class="col-lg-4 col-sm-12 mb-4">
                 <div class="card card-small">
-                  <div class="card-header border-bottom">
-                    <h6 class="m-0">Mis diarios</h6>
-                    <div class="block-handle"></div>
-                  </div>
-                  <div class="card-body p-0">
-                    <ul class="list-group list-group-small list-group-flush">
-                      <li class="list-group-item d-flex px-3">
-                        <span class="text-semibold text-fiord-blue">Primeros pasos de mi vida</span>
-                        <span class="ml-auto text-right text-semibold text-reagent-gray">20 página</span>
-                      </li>
-                      <li class="list-group-item d-flex px-3">
-                        <span class="text-semibold text-fiord-blue">Historias de mi trabajo</span>
-                        <span class="ml-auto text-right text-semibold text-reagent-gray">11 páginas</span>
-                      </li>
-                    </ul>
-                  </div>
+                    <div class="card-header border-bottom">
+                        <h6 class="m-0">Mis diarios</h6>
+                        <div class="block-handle"></div>
+                    </div>
+                    <div class="card-body p-0">
+                        <ul class="list-group list-group-small list-group-flush">
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">Primeros pasos de mi vida</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">20 página</span>
+                            </li>
+                            <li class="list-group-item d-flex px-3">
+                                <span class="text-semibold text-fiord-blue">Historias de mi trabajo</span>
+                                <span class="ml-auto text-right text-semibold text-reagent-gray">11 páginas</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
+            </div>
+            {{-- summary of my diary --}}
 
-              
         </div>
+        {{-- /content body tables --}}
     </div>
-
 @endsection

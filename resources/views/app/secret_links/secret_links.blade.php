@@ -20,7 +20,7 @@
 
         {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col">
+            <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Enlaces secretos</span>
                 <h3 class="page-title">Mis lista de enlaces</h3>
             </div>
@@ -52,7 +52,7 @@
                             <span class="file-manager__item-meta">Creado el 10 de diciembre del 2019.</span>
                         </a>
                     </td>
-                    <td><a href="https://www.youtube.com">https://www.youtube.com/IUHSKD8912890/aksjdhksajd/SAKDJ</a></td>
+                    <td><a href="https://www.youtube.com">https://www.youtube.com/?hl=es-419&gl=CL</a></td>
                     <td class="file-manager__item-actions">
                         <div class="btn-group btn-group-sm d-flex justify-content-end" role="group"
                             aria-label="Table row actions">

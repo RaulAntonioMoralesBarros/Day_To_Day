@@ -13,12 +13,11 @@
 @endsection
 
 @section('content')
-
 <div class="main-content-container container-fluid px-4 pb-4">
 
     {{-- title content header --}}
     <div class="page-header row no-gutters py-4">
-      <div class="col">
+      <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">Frases Motivadoras</span>
         <h3 class="page-title">Mi lista de frases</h3>
       </div>      
@@ -67,5 +66,4 @@
     {{-- /content body --}}
 
 </div>
-
 @endsection

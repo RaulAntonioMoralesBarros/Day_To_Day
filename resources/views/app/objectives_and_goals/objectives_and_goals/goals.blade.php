@@ -8,7 +8,6 @@
     active
 @endsection
 
-
 @section('filters')
     @include('app.objectives_and_goals.objectives_and_goals.filters')
 @endsection
@@ -22,7 +21,7 @@
 
         {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col">
+            <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Objetivos y metas</span>
                 <h3 class="page-title">Mis metas</h3>
             </div>

@@ -17,7 +17,7 @@
 
     {{-- title content header --}}
     <div class="page-header row no-gutters py-4">
-      <div class="col">
+      <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
         <span class="text-uppercase page-subtitle">Listas y prioridades</span>
         <h3 class="page-title">Mis Listas de tareas</h3>
       </div>      

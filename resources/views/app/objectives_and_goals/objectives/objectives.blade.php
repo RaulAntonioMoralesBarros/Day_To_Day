@@ -8,25 +8,23 @@
     active
 @endsection
 
-
 @section('filters')
     @include('app.objectives_and_goals.objectives.filters')
 @endsection
-
 
 @section('content')
     <div class="main-content-container container-fluid px-4 pb-4">
 
         {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col-lg-8 col-sm-4 text-center text-sm-left mb-0">
+            <div class="col-lg-8 col-sm-8 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Objetivos y metas</span>
                 <h3 class="page-title">Aprender canción Chop Suey - SOAD</h3>
                 <a href="{{ url('Objetivos_y_metas') }}" style="color: #007bff;"><i class="material-icons">
                         keyboard_backspace
                     </i>Volver</a>
             </div>
-            <div class="col-lg-4 col-sm-4 text-right text-sm-right mb-0">
+            <div class="col-log-4 col-sm-4 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">22 de Julio del 2020</span><br>
                 <a href="" style="color: red;"><i class="material-icons">&#xE872;</i>Eliminar todo</a>
             </div>
@@ -35,6 +33,8 @@
 
         {{-- content body --}}
         <div class="row">
+
+            {{-- objectives --}}
             <div class="col-lg-8 mb-3">
                 <div class="card card-small mb-3">
                     {{-- title --}}
@@ -64,29 +64,25 @@
                                     <label class="custom-control-label" style="text-decoration: line-through;"
                                         for="tarea1">Introducción
                                     </label>
-
                                     <span style="text-align: left; font-size: 12px;">
                                         creado el 12 de febrero</span>
-
                                     <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
-
                                 </div>
                                 <div class="custom-control custom-checkbox mb-1">
                                     <input type="checkbox" class="custom-control-input" id="tarea1" />
                                     <label class="custom-control-label" for="tarea1">Verso
                                     </label>
                                     <span style="text-align: left; font-size: 12px;">
-                                        creado el 1 de febrero</span> 
+                                        creado el 1 de febrero</span>
                                     <a href="#" class="card-post__category badge badge-pill badge-info" data-toggle="modal"
                                         data-target=".tarea"><i class="material-icons">content_paste</i> Nota</a>
-                                        <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
-
-                                    </div>
+                                    <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
+                                </div>
                                 <div class="custom-control custom-checkbox mb-1">
                                     <input type="checkbox" class="custom-control-input" id="tarea2" />
                                     <label class="custom-control-label" for="tarea2">Pre-estribillo</label>
                                     <span style="text-align: left; font-size: 12px;">
-                                        creado el 1 de febrero</span> 
+                                        creado el 1 de febrero</span>
                                     <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
                                 </div>
                             </li>
@@ -96,10 +92,10 @@
 
                 </div>
             </div>
+            {{-- /objectives --}}
 
-
+            {{-- progress --}}
             <div class="col-lg-4 mb-4">
-                {{-- progress --}}
                 <div class="card card-small mb-4">
                     <div class="card-header border-bottom text-center">
                         <h6 class="m-0">Progreso para alcanzar la meta</h6>
@@ -115,14 +111,15 @@
                         </li>
                     </ul>
                 </div>
-                {{-- /progress --}}
             </div>
+            {{-- /progress --}}
 
         </div>
         {{-- content body --}}
 
+        {{-- modal objectives --}}
         @include('app.objectives_and_goals.objectives.modal_objetives')
+        {{-- /modal objectives --}}
 
-        
     </div>
 @endsection

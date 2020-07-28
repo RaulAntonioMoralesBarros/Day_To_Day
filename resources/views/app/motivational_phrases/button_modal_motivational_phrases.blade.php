@@ -1,6 +1,10 @@
+{{-- button modal --}}
 <div class="color-switcher-toggle animated pulse infinite" data-toggle="modal" data-target="#exampleModal">
     <i class="material-icons">favorite</i>
 </div>
+{{-- /button modal --}}
+
+{{-- window modal --}}
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -30,3 +34,4 @@
         </div>
     </div>
 </div>
+{{-- /window modal --}}

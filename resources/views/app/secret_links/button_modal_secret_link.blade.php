@@ -1,7 +1,11 @@
-<div class="color-switcher-toggle animated pulse infinite" data-toggle="modal" data-target="#exampleModal">
+{{-- button modal --}}
+<div class="color-switcher-toggle animated pulse infinite" data-toggle="modal" data-target="#secret">
     <i class="material-icons">web</i>
 </div>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+{{-- /button modal --}}
+
+{{-- window modal --}}
+<div class="modal fade" id="secret" tabindex="-1" role="dialog" aria-labelledby="secret"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -30,3 +34,4 @@
         </div>
     </div>
 </div>
+{{-- /window modal --}}

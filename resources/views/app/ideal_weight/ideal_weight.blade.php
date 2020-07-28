@@ -13,7 +13,7 @@
 
         {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col">
+            <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Tu peso ideal</span>
                 <h3 class="page-title">Peso ideal IMC</h3>
             </div>
@@ -95,8 +95,10 @@
                 </div>
             </div>
 
+            {{-- window modal --}}
             @include('app.ideal_weight.modal')
-            
+            {{-- /window modal --}}
+
             <div class="col-lg-4">
                 <div class="card card-small">
                     <div class="card-header border-bottom">
@@ -128,7 +130,6 @@
                 </div>
             </div>
 
-
             <div class="col-lg-12">
                 <p>Puedes calcularlo manualmente dividiendo el peso total por la estatura elevada al cuadrado de personas
                     mayores de 15 años:
@@ -136,5 +137,6 @@
                     Una vez obtenido el resultado, se compara con la tabla IMC.</p>
             </div>
         </div>
+        {{-- /content body --}}
     </div>
 @endsection

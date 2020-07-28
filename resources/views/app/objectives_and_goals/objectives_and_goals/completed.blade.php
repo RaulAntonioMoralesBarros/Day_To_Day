@@ -17,16 +17,14 @@
 @endsection
 
 @section('content')
-
-
     <div class="main-content-container container-fluid px-4 pb-4">
 
-        {{-- title content header --}}   
+        {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col-lg-8 col-sm-4 text-center text-sm-left mb-0">
+            <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Objetivos y metas</span>
                 <h3 class="page-title">Metas completadas</h3>
-            <a href="{{url('Objetivos_y_metas')}}" style="color: #007bff;"><i class="material-icons">
+                <a href="{{ url('Objetivos_y_metas') }}" style="color: #007bff;"><i class="material-icons">
                         keyboard_backspace
                     </i>Volver</a>
             </div>
@@ -55,7 +53,7 @@
                         </div>
                         <div class="user-activity__item__action ml-auto">
                             <button class="ml-auto btn btn-sm btn-white">Ver meta y objetivos</button>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,5 +61,4 @@
         {{-- /content body --}}
 
     </div>
-
 @endsection

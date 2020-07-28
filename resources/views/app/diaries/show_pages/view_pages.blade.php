@@ -13,14 +13,14 @@ active
 
         {{-- title content body --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col-lg-8 col-sm-4 text-center text-sm-left mb-0">
+            <div class="col-lg-8 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Diario Personal</span>
                 <h3 class="page-title">Mi primer dia en el Jardin Infantil</h3>
             <a href="{{url('Paginas_del_diario_personal')}}" style="color: #007bff;"><i class="material-icons">
                         keyboard_backspace
                     </i>Volver</a>
             </div>
-            <div class="col-lg-4 col-sm-4 text-right text-sm-right mb-0">
+            <div class="col-lg-4 col-sm-12 text-right text-sm-right mb-0">
                 <span class="text-uppercase page-subtitle">22 de Julio del 2020</span><br>
                 <a href="" style="color: red;"><i class="material-icons">&#xE872;</i>Eliminar</a>
             </div>

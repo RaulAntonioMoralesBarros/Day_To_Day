@@ -17,14 +17,14 @@
 
         {{-- /title content header --}}
         <div class="page-header row no-gutters py-4">
-            <div class="col-lg-8 col-sm-4 text-center text-sm-left mb-0">
+            <div class="col-lg-8 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Listas y prioridades</span>
                 <h3 class="page-title">Oficina</h3>
                 <a href="{{ url('Listas_y_prioridades') }}" style="color: #007bff;"><i class="material-icons">
                         keyboard_backspace
                     </i>Volver</a>
             </div>
-            <div class="col-lg-4 col-sm-4 text-right text-sm-right mb-0">
+            <div class="col-lg-4 col-sm-12 text-right text-sm-right mb-0">
                 <span class="text-uppercase page-subtitle">22 de Julio del 2020</span><br>
                 <a href="" style="color: red;"><i class="material-icons">&#xE872;</i>Eliminar todo</a>
             </div>
@@ -97,5 +97,6 @@
         {{-- modal_tasks --}}
         @include('app.lists_and_priorities.tasks.modal_task')
         {{-- /modal_tasks --}}
+        
     </div>
 @endsection
