@@ -13,8 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/Login', function () {
+Route::get('/Ingreso', function () {
     return view('web_site.access.login');
+});
+
+Route::get('/Registro', function () {
+    return view('web_site.access.register');
+});
+
+Route::get('/Restablecer_contraseña', function () {
+    return view('web_site.access.forgot-password');
 });
 
 Route::get('/Diario_de_vida', function () {
@@ -53,8 +61,16 @@ Route::get('/Objetivos_y_metas', function () {
     return view('app.objectives_and_goals.objectives_and_goals.goals');
 });
 
+Route::get('/Completadas_metas', function () {
+    return view('app.objectives_and_goals.objectives_and_goals.completed');
+});
+
 Route::get('/Metas', function () {
     return view('app.objectives_and_goals.objectives.objectives');
+});
+
+Route::get('/Historial_objetivos',function(){
+    return view('app.objectives_and_goals.objectives.history');
 });
 
 Route::get('/Tu_peso_ideal', function () {
@@ -71,4 +87,8 @@ Route::get('/Agenda_telefonica', function () {
 
 Route::get('/Frases_motivadoras', function () {
     return view('app.motivational_phrases.motivational_phrases');
+});
+
+Route::get('/Estadisticas', function () {
+    return view('app.statistics.statistics');
 });

@@ -61,7 +61,7 @@
                     <span class="d-none d-md-inline-block">Raúl Antonio</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-small">
-                    <a class="dropdown-item" href="Estadisticas.html">
+                <a class="dropdown-item" href="{{url('Estadisticas')}}">
                         <i class="material-icons"></i> Estadisticas</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="Fotos.html">

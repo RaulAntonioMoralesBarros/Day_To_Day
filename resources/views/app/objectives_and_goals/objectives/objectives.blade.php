@@ -66,8 +66,7 @@
                                     </label>
 
                                     <span style="text-align: left; font-size: 12px;">
-                                        <i class="material-icons">alarm</i> 12 de febrero 10:20
-                                        PM</span>
+                                        creado el 12 de febrero</span>
 
                                     <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
 
@@ -77,19 +76,18 @@
                                     <label class="custom-control-label" for="tarea1">Verso
                                     </label>
                                     <span style="text-align: left; font-size: 12px;">
-                                        <i class="material-icons">alarm</i> 1 de febrero 10:20
-                                        PM</span> -
-                                    <span style="text-align: left; font-size: 12px;">
-                                        <i class="material-icons">content_paste</i>Nota</span>
-                                    <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
+                                        creado el 1 de febrero</span> 
                                     <a href="#" class="card-post__category badge badge-pill badge-info" data-toggle="modal"
-                                        data-target=".tarea">Información.</a>
-                                </div>
+                                        data-target=".tarea"><i class="material-icons">content_paste</i> Nota</a>
+                                        <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
+
+                                    </div>
                                 <div class="custom-control custom-checkbox mb-1">
                                     <input type="checkbox" class="custom-control-input" id="tarea2" />
                                     <label class="custom-control-label" for="tarea2">Pre-estribillo</label>
+                                    <span style="text-align: left; font-size: 12px;">
+                                        creado el 1 de febrero</span> 
                                     <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
-
                                 </div>
                             </li>
                         </ul>
