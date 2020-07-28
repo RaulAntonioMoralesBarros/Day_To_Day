@@ -49,12 +49,8 @@ Route::get('/Tareas', function () {
     return view('app.lists_and_priorities.tasks.tasks');
 });
 
-Route::get('/Tareas', function () {
-    return view('app.lists_and_priorities.tasks.tasks');
-});
-
-Route::get('/Tareas', function () {
-    return view('app.lists_and_priorities.tasks.tasks');
+Route::get('/Historial_listas', function () {
+    return view('app.lists_and_priorities.tasks.history');
 });
 
 Route::get('/Objetivos_y_metas', function () {
@@ -69,7 +65,7 @@ Route::get('/Metas', function () {
     return view('app.objectives_and_goals.objectives.objectives');
 });
 
-Route::get('/Historial_objetivos',function(){
+Route::get('/Historial_objetivos', function () {
     return view('app.objectives_and_goals.objectives.history');
 });
 
