@@ -97,3 +97,14 @@ Route::get('/Invitar', function () {
     return view('app.invite.invite_premium');
 });
 
+Route::get('/Configuracion', function () {
+    return view('app.configurations.configurations');
+});
+
+Route::get('/Perfil', function () {
+    return view('app.configurations.account');
+});
+
+Route::get('/Cambiar_contraseña', function () {
+    return view('app.configurations.change_password');
+});

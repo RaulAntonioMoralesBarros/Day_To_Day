@@ -76,10 +76,10 @@
                         <i class="material-icons">person_add</i> Invitar</a>
 
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="perfil.html">
+                    <a class="dropdown-item" href="{{url('Configuracion')}}">
                         <i class="material-icons">settings</i> Configuración</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-danger" href="{{ url('Login') }}">
+                    <a class="dropdown-item text-danger" href="{{ url('Ingreso') }}">
                         <i class="material-icons text-danger">&#xE879;</i> Salir
                     </a>
                 </div>
