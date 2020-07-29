@@ -17,6 +17,25 @@
     <script src="{{ URL::asset('../js/quill.min.js') }}"></script>
     <script src="{{ URL::asset('../scripts/app/app-blog-new-post.1.1.0.js') }}"></script>
     <script src="{{ URL::asset('../js/bootstrap-tagsinput.min.js') }}"></script>
+    <script src="{{ URL::asset('../js/jquery.fancybox.min.js') }}">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                openEffect: "none",
+                closeEffect: "none"
+            });
+
+            $(".zoom").hover(function() {
+
+                $(this).addClass('transition');
+            }, function() {
+
+                $(this).removeClass('transition');
+            });
+        });
+
+    </script>
     <script>
         $("#input").datetimepicker({
             footer: true,

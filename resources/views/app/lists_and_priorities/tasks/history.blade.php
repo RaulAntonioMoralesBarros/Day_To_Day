@@ -28,7 +28,7 @@
             <div class="col-12 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Listas y prioridadesa</span>
                 <h3 class="page-title">Historial</h3>
-                <a href="{{ url('Tareas') }}" style="color: #007bff;"><i class="material-icons">
+                <a href="{{ url('Listas') }}" style="color: #007bff;"><i class="material-icons">
                         keyboard_backspace
                     </i>Volver</a>
             </div>

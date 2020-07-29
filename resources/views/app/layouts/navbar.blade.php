@@ -64,14 +64,15 @@
                     <a class="dropdown-item" href="{{ url('Estadisticas') }}">
                         <i class="material-icons"></i> Estadisticas</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="Fotos.html">
+                    <a class="dropdown-item" href="{{url('Galeria')}}">
                         <i class="material-icons">image</i> Fotos</a>
                     <div class="dropdown-divider"></div>
 
                     <a class="dropdown-item" href="Fotos.html">
                         <i class="material-icons">dvr</i> Plantillas</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="Fotos.html">
+
+                    <a class="dropdown-item" href="{{ url('Invitar')}}">
                         <i class="material-icons">person_add</i> Invitar</a>
 
                     <div class="dropdown-divider"></div>

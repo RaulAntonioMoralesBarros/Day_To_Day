@@ -88,3 +88,12 @@ Route::get('/Frases_motivadoras', function () {
 Route::get('/Estadisticas', function () {
     return view('app.statistics.statistics');
 });
+
+Route::get('/Galeria', function () {
+    return view('app.photos.gallery');
+});
+
+Route::get('/Invitar', function () {
+    return view('app.invite.invite_premium');
+});
+
