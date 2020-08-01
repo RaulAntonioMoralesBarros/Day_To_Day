@@ -26,8 +26,6 @@
                         <textarea name="" id="" cols="30" rows="6" class="form-control mb-3"
                             style="min-height: 150px;"></textarea> </div>
                 </form>
-            </div>
-            <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 <button type="button" class="btn btn-primary">Guardar</button>
             </div>

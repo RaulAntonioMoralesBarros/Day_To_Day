@@ -108,3 +108,8 @@ Route::get('/Perfil', function () {
 Route::get('/Cambiar_contraseña', function () {
     return view('app.configurations.change_password');
 });
+
+Route::get('/Politicas_de_cookie', function () {
+    return view('app.information.cookie_policies');
+});
+

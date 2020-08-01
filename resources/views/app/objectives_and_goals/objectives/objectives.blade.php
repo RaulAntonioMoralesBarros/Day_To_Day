@@ -16,15 +16,16 @@
     <div class="main-content-container container-fluid px-4 pb-4">
 
         {{-- title content header --}}
+
         <div class="page-header row no-gutters py-4">
-            <div class="col-lg-8 col-sm-8 text-center text-sm-left mb-0">
+            <div class="col-lg-8 col-sm-12 text-center text-sm-left mb-0">
                 <span class="text-uppercase page-subtitle">Objetivos y metas</span>
                 <h3 class="page-title">Aprender canción Chop Suey - SOAD</h3>
                 <a href="{{ url('Objetivos_y_metas') }}" style="color: #007bff;"><i class="material-icons">
                         keyboard_backspace
                     </i>Volver</a>
             </div>
-            <div class="col-log-4 col-sm-4 text-center text-sm-left mb-0">
+            <div class="col-lg-4 col-sm-12 text-right text-sm-right mb-0">
                 <span class="text-uppercase page-subtitle">22 de Julio del 2020</span><br>
                 <a href="" style="color: red;"><i class="material-icons">&#xE872;</i>Eliminar todo</a>
             </div>
@@ -39,7 +40,7 @@
                 <div class="card card-small mb-3">
                     {{-- title --}}
                     <div class="card-header border-bottom">
-                        <h6 class="m-0">Mis objetivos</h6>
+                        <h6 class="m-0">Objetivos</h6>
                     </div>
                     {{-- /title --}}
 
@@ -51,8 +52,7 @@
                                     <input type="text" class="form-control" placeholder="Nuevos objetivos"
                                         aria-label="Agregar nuevas objetivos" aria-describedby="basic-addon2" />
                                     <div class="input-group-append">
-                                        <button class="btn btn-white px-2" type="button" data-toggle="modal"
-                                            data-target="#tarea">
+                                        <button class="btn btn-white px-2" type="button">
                                             <i class="material-icons">add</i>
                                         </button>
                                     </div>
@@ -61,29 +61,26 @@
                             <li class="list-group-item px-3 pb-2">
                                 <div class="custom-control custom-checkbox mb-1">
                                     <input type="checkbox" class="custom-control-input" id="tarea1" checked />
-                                    <label class="custom-control-label" style="text-decoration: line-through;"
-                                        for="tarea1">Introducción
-                                    </label>
+                                    <label class="custom-control-label" style="text-decoration: line-through;" for="tarea1">
+                                        <a data-toggle="modal" data-target="#tarea">
+                                            Ordenar la Introducción
+                                        </a>
+
                                     <span style="text-align: left; font-size: 12px;">
-                                        creado el 12 de febrero</span>
-                                    <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
+                                        <i class="material-icons">content_paste</i></span>
+                                    </label>
+        
                                 </div>
+
                                 <div class="custom-control custom-checkbox mb-1">
                                     <input type="checkbox" class="custom-control-input" id="tarea1" />
                                     <label class="custom-control-label" for="tarea1">Verso
                                     </label>
-                                    <span style="text-align: left; font-size: 12px;">
-                                        creado el 1 de febrero</span>
-                                    <a href="#" class="card-post__category badge badge-pill badge-info" data-toggle="modal"
-                                        data-target=".tarea"><i class="material-icons">content_paste</i> Nota</a>
-                                    <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
-                                </div>
+                                      </div>
                                 <div class="custom-control custom-checkbox mb-1">
                                     <input type="checkbox" class="custom-control-input" id="tarea2" />
                                     <label class="custom-control-label" for="tarea2">Pre-estribillo</label>
-                                    <span style="text-align: left; font-size: 12px;">
-                                        creado el 1 de febrero</span>
-                                    <a href="" style="color: red;"><i class="material-icons">&#xE872;</i></a>
+                                  
                                 </div>
                             </li>
                         </ul>

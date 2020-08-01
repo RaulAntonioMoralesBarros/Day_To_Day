@@ -47,7 +47,7 @@
                         </div>
                     </td>
                     <td class="text-left">
-                        <a href="life_diary.html">
+                        <a href="https://www.youtube.com">
                             <h5 class="file-manager__item-title">Youtube</h5>
                             <span class="file-manager__item-meta">Creado el 10 de diciembre del 2019.</span>
                         </a>

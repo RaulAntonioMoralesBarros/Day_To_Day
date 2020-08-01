@@ -10,16 +10,15 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label class="my-1 mr-2" for="notas">Nota</label>
+                <label for="userLocation">Recordatorio</label>
+                <input id="input" width="270" />
+
+                <label class="my-1 mr-2" for="notas">Notas</label>
                 <textarea class="form-control" id="notas" rows="3"></textarea>
 
-                <label for="userLocation">Recordatorio</label>
-
-                <input id="input" width="270" />
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Cerrar
+                <br>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                    Eliminar tarea
                 </button>
                 <button type="button" class="btn btn-primary">
                     Guardar

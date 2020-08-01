@@ -10,12 +10,10 @@
                 </button>
             </div>
             <div class="modal-body">
-                <label class="my-1 mr-2" for="notas">Nota</label>
-                <textarea class="form-control" id="notas" rows="3"></textarea>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                    Cerrar
+                <textarea class="form-control" id="notas" rows="3" placeholder="Agregar una nota..."></textarea>
+                <br>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                    Eliminar
                 </button>
                 <button type="button" class="btn btn-primary">
                     Guardar

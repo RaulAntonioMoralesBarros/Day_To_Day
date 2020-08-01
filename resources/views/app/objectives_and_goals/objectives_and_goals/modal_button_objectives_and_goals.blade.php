@@ -22,8 +22,7 @@
                         <input type="text" class="form-control" id="recipient-name">
                     </div>
                 </form>
-            </div>
-            <div class="modal-footer">
+                <br>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
                 <button type="button" class="btn btn-primary">Guardar</button>
             </div>

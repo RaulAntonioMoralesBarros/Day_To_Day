@@ -10,3 +10,5 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+/resources/views/app/Information/cookie_policies.blade.php
+/resources/views/app/Information/legal_warning.blade.php
