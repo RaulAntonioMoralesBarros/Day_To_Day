@@ -64,6 +64,7 @@
       </tbody>
     </table>
     {{-- /content body --}}
+    @include('app.motivational_phrases.button_modal_motivational_phrases_help')
 
 </div>
 @endsection

@@ -66,6 +66,6 @@
             </tbody>
         </table>
         {{-- /content body --}}
-
+        @include('app.diaries.personal_diary.button_modal_diary_personal_help')
     </div>
 @endsection

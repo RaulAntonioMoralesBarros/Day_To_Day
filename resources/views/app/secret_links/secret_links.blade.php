@@ -68,6 +68,8 @@
             </tbody>
         </table>
         {{-- /content body --}}
+        @include('app.secret_links.button_modal_secret_links_help')
+
     </div>
 
 @endsection

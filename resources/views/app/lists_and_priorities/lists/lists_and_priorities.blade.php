@@ -64,6 +64,7 @@
       </tbody>
     </table>
     {{-- /content body --}}
+    @include('app.lists_and_priorities.lists.button_modal_lists_and_priorities_help')
 
 </div>
 @endsection

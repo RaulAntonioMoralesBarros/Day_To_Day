@@ -69,6 +69,7 @@
             </tbody>
         </table>
         {{-- /content body --}}
+        @include('app.objectives_and_goals.objectives_and_goals.button_modal_objectives_and_goals_help')
 
     </div>
 @endsection

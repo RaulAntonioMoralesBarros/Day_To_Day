@@ -13,7 +13,7 @@
 @endsection
 
 @section('content')
-    <div class="main-content-container container-fluid px-4 mb-4">
+    <div class="main-content-container container-fluid px-4 pb-4">
 
         {{-- title content header --}}
         <div class="page-header row no-gutters py-4">
@@ -56,6 +56,7 @@
             </tbody>
         </table>
         {{-- /content body --}}
+        @include('app.phonebook.button_modal_phonebook_help')
 
     </div>
 @endsection
